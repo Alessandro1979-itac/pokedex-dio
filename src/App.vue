@@ -1,12 +1,17 @@
 <template>
 	<div id="pokedex">
-		<h1 class="text--yellow">Pokedex DIO</h1>
+		<Pokedex />
 	</div>
 </template>
 
 <script>
+	import Pokedex from './components/Pokedex.vue';
+
 	export default {
 		name: 'App',
+		components: {
+			Pokedex,
+		},
 	};
 </script>
 
